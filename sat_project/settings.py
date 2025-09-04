@@ -164,9 +164,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images, PDFs)
 STATIC_URL = '/static/'
 
-#STATICFILES_DIRS = [
-#    BASE_DIR / "static",   # project_root/static/
-#]
+# Development & collectstatic এ home/static ফোল্ডার ব্যবহার হবে
+STATICFILES_DIRS = [
+    BASE_DIR / "home" / "static",
+]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"   # production এ collectstatic এর জন্য
 
