@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.py[cod]
+*.swp
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+.env
+venv/
+env/
+ENV/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/staticfiles/
+media/
+*.mo
+
+# IDE / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+*.manifest
+*.spec
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Celery beat
+celerybeat-schedule
