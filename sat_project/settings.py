@@ -36,7 +36,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['my-sat-app.onrender.com']
+ALLOWED_HOSTS = ['sat-for-deploy.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 
